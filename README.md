@@ -12,16 +12,15 @@ This is the new home of the Max/MSP software defined radio project.
 
 Currently it contains old files and new work in progress. We will write new instructions here as soon as something is ready to go.
 
-The new approach will be to remove the device handling code from Max. Instead providing device interfaces from existing 
-device libraries, like soapy-sdr, hamlib, gnu-radio, etc.,  The Max portion of the project will read IQ files, perform DSP,
-and other magic.
+The new approach will be to remove the device handling code from Max. Instead providing device interfaces from existing device libraries, like soapy-sdr (In CubicSDR), hamlib, gnu-radio, etc.,  The Max portion of the project will read IQ files, perform DSP, and other magic.
 
 The first platform will be Max8 in Mac OS Catalina
 
 For progress reports and fun things to try check here: https://reactivemusic.net/?p=19995 - Or look at any recent posts about radio at that site.
 
-If you are looking for old things, the maxradio repo still exists on github - in a permanent state of decline
+-------------------------------------------------------------------------------------------
 
+If you are looking for old things, the maxradio repo still exists on github - in a permanent state of decline https://github.com/tkzic/maxradio
 
 -------------------------------------------------------------------------------------------
 Problems? Questions? Ideas? Interested in developing?  Send email to tkzic@megalink.com
