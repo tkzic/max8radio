@@ -1,7 +1,8 @@
 README.md 
 max8radio: Max/MSP SDR project and tutorials
 Jan 27, 2021
-http://zerokidz.com/radio
+current documentation: https://reactivemusic.net/?p=19995
+Legacy docs: http://zerokidz.com/radio
 local: max8radio
 
 #### email: tkzic@megalink.net
