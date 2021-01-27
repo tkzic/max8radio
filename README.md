@@ -18,6 +18,8 @@ and other magic.
 
 The first platform will be Max8 in Mac OS Catalina
 
+For progress reports and fun things to try check here: https://reactivemusic.net/?p=19995 - Or look at any recent posts about radio at that site.
+
 If you are looking for old things, the maxradio repo still exists on github - in a permanent state of decline
 
 
