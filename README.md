@@ -1,6 +1,6 @@
 README.md 
 max8radio: Max/MSP SDR project and tutorials
-Jan 27, 2021
+Feb 6, 2021
 current documentation: https://reactivemusic.net/?p=19995
 Legacy docs: http://zerokidz.com/radio
 local: max8radio
@@ -18,6 +18,10 @@ The new approach will be to remove the device handling code from Max. Instead pr
 The first platform will be Max8 in Mac OS Catalina
 
 For progress reports and fun things to try check here: https://reactivemusic.net/?p=19995 - Or look at any recent posts about radio at that site.
+
+New Prototype using CubicSDR, max8sdr1.maxpat, and py3rigctl2.py  - https://reactivemusic.net/?p=20029
+
+So far, CubicSDR is the only stable program that will feed I/Q data into Max - with frequency control for a wide range of devices. Still looking for a more compact solution but its eluded us to this point.
 
 -------------------------------------------------------------------------------------------
 
