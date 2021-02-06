@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 79.0, 1244.0, 639.0 ],
+		"rect" : [ 0.0, 45.0, 1236.0, 707.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -1972,8 +1972,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 213.0, 490.0, 166.0, 21.0 ],
-									"text" : "4 128, range 0 20, drawstyle 1"
+									"patching_rect" : [ 213.0, 490.0, 164.0, 21.0 ],
+									"text" : "4 128, range 0 20, drawstyle 0"
 								}
 
 							}
@@ -33231,7 +33231,7 @@
 									"restore" : 									{
 										"day" : [ 6 ],
 										"hour" : [ 1 ],
-										"minute" : [ 15 ],
+										"minute" : [ 46 ],
 										"month" : [ 2 ],
 										"year" : [ 2021 ]
 									}
@@ -62705,7 +62705,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 613.0, 64.0, 209.0, 20.0 ],
-													"text" : "write presets.json 1"
+													"text" : "recall 1"
 												}
 
 											}
@@ -64401,7 +64401,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 851.0, 254.035065000000003, 133.598952999999995, 19.0 ],
-													"text" : "write presets.json 1"
+													"text" : "recall 1"
 												}
 
 											}
@@ -69692,30 +69692,30 @@
 						"AFGain" : [ -14.0 ],
 						"AGCThresholdSlider" : [ 74 ],
 						"AGCToggle" : [ 1.0 ],
-						"IQFlipToggle" : [ 1.0 ],
+						"IQFlipToggle" : [ 0.0 ],
 						"IQRecorderToggle" : [ 0.0 ],
 						"LPF1CutoffFreqSlider" : [ 20.32 ],
 						"LPF1QSlider" : [ 0.8 ],
 						"LPF2CutoffFreqSlider" : [ 3000.0 ],
 						"OSCIPTextedit" : [ "192.168.1.105" ],
-						"RFGain" : [ -11.810536569526754 ],
-						"actualFreqFloat" : [ 3.520072959433891 ],
+						"RFGain" : [ -4.664826690478137 ],
+						"actualFreqFloat" : [ 7.054422728274999 ],
 						"audioToggle" : [ 1.0 ],
 						"autoLevelToggle" : [ 0.0 ],
 						"deviceTuningArrowKeysToggle" : [ 1.0 ],
 						"deviceTuningCoarseSlider" : [ 0 ],
-						"deviceTuningDataEntryFloat" : [ 3.5347 ],
+						"deviceTuningDataEntryFloat" : [ 7.0444 ],
 						"deviceTuningFineSlider" : [ 0 ],
 						"deviceTuningUHFToggle" : [ 0.0 ],
 						"fineTuningResetButton" : [ 0.0 ],
-						"fineTuningSlider" : [ 77.039977943203752 ],
+						"fineTuningSlider" : [ 64.0 ],
 						"humFilterToggle" : [ 0.0 ],
 						"humFilterWidthSlider" : [ 0.0 ],
 						"inputSelectMenu" : [ 0 ],
 						"lpf1FreqDisplayNumber" : [ 1600 ],
 						"lpf1FreqShiftSlider" : [ 0.0 ],
 						"mainTuningResetButton" : [ 0.0 ],
-						"mainTuningSlider" : [ 44.362612578521151 ],
+						"mainTuningSlider" : [ 93.090912000000003 ],
 						"memoryTagTextedit" : [ "reset" ],
 						"modeSelectRadiogroup" : [ 0 ],
 						"noiseFilterLevelSlider" : [ 0 ],
@@ -69731,7 +69731,7 @@
 						"pstorageStoreButton" : [ 0.0 ],
 						"pstorageStoreDeleteButton" : [ 0.0 ],
 						"pstorageStoreNextButton" : [ 0.0 ],
-						"scopeRangeSlider" : [ 7.112068965517242 ],
+						"scopeRangeSlider" : [ 15.651498021481062 ],
 						"testNoiseToggle" : [ 0.0 ]
 					}
 ,
@@ -79527,7 +79527,7 @@
 									"parameter_enable" : 0,
 									"patching_rect" : [ 33.0, 103.0, 20.0, 34.0 ],
 									"size" : 2,
-									"value" : 1
+									"value" : 0
 								}
 
 							}
@@ -86703,13 +86703,12 @@
 , 			{
 				"box" : 				{
 					"calccount" : 4,
-					"drawstyle" : 1,
 					"id" : "obj-79",
 					"maxclass" : "scope~",
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"patching_rect" : [ 234.0, 39.0, 739.0, 111.0 ],
-					"range" : [ 0.0, 7.112068965517242 ]
+					"range" : [ 0.0, 15.651498021481062 ]
 				}
 
 			}
